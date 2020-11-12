@@ -1,0 +1,74 @@
+body {
+  background-image: url(bilder/bakgrund.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  padding: 0%;
+  margin: 0%;
+}
+
+.header {
+  width: 100%;
+  height: 70px;
+  display: block;
+  background-color: black;
+  border-bottom: 2px rgb(128, 126, 121);
+  border-bottom-style: solid;
+}
+
+.inner_header {
+  height: 100%;
+  display: block;
+  margin: auto;
+  padding-right: 5%;
+}
+
+.logo {
+  height: 100%;
+  display: table;
+  float: left;
+  padding-left: 5%;
+}
+
+.logo a:hover {
+  text-decoration: none;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+h1 {
+  color: rgb(245, 56, 9);
+  display: table-cell;
+  vertical-align: middle;
+  font-family: "Montserrat", sans-serif;
+  font-size: 36px;
+}
+
+h1 > span {
+  color: rgb(250, 250, 250);
+  font-size: 34px;
+}
+
+.navigation {
+  float: right;
+  vertical-align: middle;
+  display: table;
+}
+
+.navigation li {
+  display: table-cell;
+  padding: 10px;
+}
+
+.navigation li a {
+  vertical-align: middle;
+  display: table;
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  transition: 0.3s;
+}
