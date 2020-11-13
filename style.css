@@ -13,7 +13,7 @@ body {
   height: 70px;
   display: block;
   background-color: black;
-  border-bottom: 2px rgb(128, 126, 121);
+  border-bottom: 2px rgb(245, 56, 9);
   border-bottom-style: solid;
 }
 
@@ -71,4 +71,60 @@ h1 > span {
   font-size: 20px;
   text-decoration: none;
   transition: 0.3s;
+}
+
+.navigation li:hover a {
+  display: inline-block;
+  vertical-align: middle;
+  transform: perspective(1px) translateZ(0px);
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
+  transition-duration: 0.3s;
+}
+
+.footer {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: black;
+  text-align: center;
+  border-top: 2px rgb(245, 56, 9);
+  border-top-style: solid;
+}
+.inner_footer {
+  display: block;
+  margin: 10px auto;
+  width: 1100px;
+  height: 100%;
+}
+
+.inner_footer .footer_third {
+  width: calc(33%);
+  float: left;
+  float: right;
+  height: 100%;
+}
+
+.inner_footer .footer_third:last-child {
+  margin-right: 10px;
+}
+
+.inner_footer .footer_third h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.inner_footer .footer_third a {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  display: block;
+  width: 100%;
+  margin-bottom: 20px;
+  text-decoration: none;
 }
