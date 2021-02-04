@@ -4,8 +4,8 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  padding: 0%;
-  margin: 0%;
+  padding: 0;
+  margin: 0;
 }
 
 .header {
@@ -79,6 +79,33 @@ h1 > span {
   transform: perspective(1px) translateZ(0px);
   box-shadow: rgba(0, 0, 0, 0) 0px 0px 1px;
   transition-duration: 0.3s;
+}
+
+.container {
+}
+.productlist {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.productcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  border: 2px black solid;
+  background-color: white;
+}
+
+.productinfo {
+  display: flex;
+  justify-content: center;
+}
+
+.productcard img {
+  width: 400px;
+  height: 300px;
 }
 
 .footer {
