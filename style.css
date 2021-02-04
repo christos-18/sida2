@@ -85,17 +85,15 @@ h1 > span {
 }
 .productlist {
   display: flex;
-  justify-content: center;
-  padding: 2%;
+  margin: 5%;
 }
 
 .productcard {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 5%;
   border: 2px black solid;
   background-color: white;
+  margin: 10px;
 }
 
 .productinfo {
@@ -104,8 +102,8 @@ h1 > span {
 }
 
 .productcard img {
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 .footer {
