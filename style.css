@@ -86,14 +86,14 @@ h1 > span {
 .productlist {
   display: flex;
   margin: 5%;
+  padding: 1%;
 }
 
 .productcard {
-  display: flex;
   flex-direction: column;
   border: 2px black solid;
   background-color: white;
-  margin: 10px;
+  margin: 14px;
 }
 
 .productinfo {
