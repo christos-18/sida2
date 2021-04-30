@@ -88,7 +88,7 @@ h1 > span {
 }
 .productlist {
   display: flex;
-  margin: 5%;
+  margin: auto;
   padding: 1%;
 }
 
@@ -175,4 +175,7 @@ h1 > span {
   width: 100%;
   margin-bottom: 20px;
   text-decoration: none;
+}
+
+@media (max-width: 600px) {
 }
